@@ -57,7 +57,7 @@ int execcmd(char *cmd)
     }
     else
     {
-        wait(NULL); //waiting for child to finish else it will be orphana and parent will return before child.
+        wait(NULL); //waiting for child to finish else it will be an orphan and parent will return before child.
         printf("Back to Main\n");
 
     }
